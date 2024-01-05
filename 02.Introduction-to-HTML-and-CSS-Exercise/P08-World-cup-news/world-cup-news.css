@@ -1,0 +1,33 @@
+.wrapper {
+    Width: 700px;
+    Height: 730px;
+    Border: 1px solid #000000;
+    padding: 10px 20px;
+    background: #a6e1ec;
+}
+
+img {
+    width: 200px;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+span {
+    color: #3f51b5; 
+}
+
+li {
+    Width: 595px;
+    Padding: 1px;
+    Margin: 5px;
+    Font-Size: 14px;
+    Border: 1px solid #000000;
+}
+
+.no-bullets {
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+}
