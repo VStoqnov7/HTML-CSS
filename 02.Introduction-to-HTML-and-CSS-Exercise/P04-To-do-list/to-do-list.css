@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .my-list {
+    background-color: red;
+    padding: 8px 24px;
+    width: 500px;
+    font-size: 30px;
+    border: 2px solid #f7f381;
+    box-shadow: 0 0 50px 2px #333333;
+  }
+  
+  .my-list ol {
+    margin: 12px;
+  }
+  
+  .centered {
+    text-align: center;
+  }
