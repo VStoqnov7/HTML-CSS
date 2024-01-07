@@ -1,0 +1,43 @@
+li {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px;
+
+}
+
+ul{
+    background-color: #444;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+body {
+    Margin: 0px;
+    Padding: 0px;
+    Background-color: #CCCCCC;
+}
+nav{
+    color: #ffffff;;
+    text-decoration: none;
+}
+
+.fontstyle{
+    font-style: italic;
+}
+main p{
+    font-size: 24px;
+}
+
+footer{
+    background-color: #444;
+    text-align: center;
+    padding: 1px;
+    color: #fff;
+}
+
+
+
