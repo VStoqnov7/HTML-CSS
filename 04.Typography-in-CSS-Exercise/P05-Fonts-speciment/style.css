@@ -1,0 +1,19 @@
+body{
+    font-family: Releway, sans-serif;
+    font-size: 16px;
+    padding: 10px 70px;
+    
+}
+h2{
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.2;
+}
+ul.disk-list1{
+    list-style-type: disc;
+}
+
+ul.disk-lists{
+    list-style-type: circle;
+}
