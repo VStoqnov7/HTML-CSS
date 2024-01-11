@@ -1,0 +1,74 @@
+.horizontal-line {
+  border: 1px solid rgba(128, 128, 128, 0.384);
+  margin: 0;
+}
+ul{
+  list-style-type: square;
+}
+
+ul.disk-list1 {
+  list-style-type: disc;
+}
+
+ul.disk-lists {
+  list-style-type: circle;
+}
+
+th {
+  background-color: lightblue;
+}
+
+th,
+td {
+  width: 500px;
+  height: 32px;
+  border: 1px solid #ccc;
+  padding-left: 3px;
+  text-align: left;
+  
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  background-color: rgba(128, 128, 128, 0.068);
+  border-collapse: collapse;
+  font-weight: bold;
+
+}
+
+.vertical-line {
+  border-left: 5px solid #cccccc62;
+  height: 120px;
+  margin: 40px;
+  margin-block-start: auto;
+}
+
+.vertical-line p {
+  margin: 30px;
+  font-style: italic;
+}
+
+.koko {
+  text-align: right;
+}
+
+
+table tbody tr:nth-child(odd) {
+  background-color: rgba(128, 128, 128, 0.171);
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, serif;
+}
