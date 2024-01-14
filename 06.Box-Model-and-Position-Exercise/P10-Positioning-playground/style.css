@@ -23,16 +23,3 @@ img{
     background: linear-gradient(90deg, rgba(223,99,149,1) 11%, rgba(217,104,18,0.9463229495268138) 97%);
 }
 
-.icon__image2 i{
-  
-    position: absolute;
-    bottom: 35.8%;
-    left: 62.8%;
-}
-
-.icon__image1 i{
-  
-    position: absolute;
-    top: 22.5%;
-    left: 62.2%;
-}
