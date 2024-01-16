@@ -1,0 +1,46 @@
+body{
+    background-color: #EEE;
+}
+
+.layout{
+    /* background-color: #fff; */
+    background-color: #EEE;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px 40px 30px 20px;
+    height: 500px;
+}
+
+.header, .main, .aside, .footer{
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 30px;
+    box-shadow: 6px 5px 5px #1a0a275e;
+    border: 1px solid #1a0a275e;
+}
+
+.header{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.main{
+    width: 65%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.aside{
+    width: calc(100% - 65% - 20px);
+    margin-bottom: 20px;
+
+}
+
+.footer{
+    width: 100%;
+}
+
+.layout .text{
+    margin: 15px 0px 0px 15px;
+}
