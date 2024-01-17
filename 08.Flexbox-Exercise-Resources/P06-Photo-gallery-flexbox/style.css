@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(179, 174, 174);
+  }
+  
+  .image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px; 
+    margin: 0 auto; 
+
+  }
+  
+  .image-container {
+    border: 7px solid #000; 
+    margin: 10px; 
+    padding: 25px;
+    background-color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .centered-image {
+    display: block;
+    margin: 0 auto; 
+    max-width: 100%; 
+    max-height: 100%; 
+  }
+  
+ 
