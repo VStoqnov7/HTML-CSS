@@ -1,0 +1,37 @@
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(238, 238, 238);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #f0f0f0; 
+  }
+  
+  img {
+    width: 300px; 
+    height: 300px; 
+    margin: 10px; 
+  }
+
+  .container img.img2{
+    width: 450px;
+    border-radius: 9px;
+    object-fit: cover;
+    border-left: 9px solid black;
+    border-right: 9px solid black;
+  }
+
+  .container img.img1,
+  .container img.img3,
+  .container img.img4{
+    width: 80px;
+    object-fit: cover;
+    border-radius: 9px;
+  }
