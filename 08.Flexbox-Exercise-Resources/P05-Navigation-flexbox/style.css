@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather:ital@0;1&family=Roboto:wght@700&family=Work+Sans:wght@600&display=swap');
+
+body{
+margin: 60px;
+
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(0,0,0);;
+    margin-bottom: 30px;
+}
+
+.head .title{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.head .lists{
+    display: flex;
+    gap: 30px;
+    margin-right: 20px;
+}
+
+.head .lists a{
+    text-decoration: none;
+    color: rgb(120, 158, 45);
+}
+
+.main .title{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.main p{
+    margin-bottom: 20px;
+}
