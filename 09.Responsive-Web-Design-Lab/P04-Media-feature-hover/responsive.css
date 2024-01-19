@@ -1,0 +1,7 @@
+@media (hover: hover) {
+ 
+    article code:hover{
+        background-color: black;
+        color: white;
+    }
+}
