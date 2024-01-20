@@ -1,0 +1,52 @@
+.container {
+    border: 2px solid black;
+    width: 40%;
+    margin: 50px auto;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    position: relative;
+
+}
+
+.login p {
+    text-align: left;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.login i {
+    position: absolute;
+    top: 25%;
+    left: 2%;
+    overflow: hidden;
+}
+
+.login i:nth-last-of-type(1){
+    top: 63%;
+}
+
+.login .username{
+    padding-left: 30px;
+}
+
+.login .password{
+    padding-left: 30px;
+}
+
+.login button {
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    width: 100px;
+    overflow: hidden;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+}
+
