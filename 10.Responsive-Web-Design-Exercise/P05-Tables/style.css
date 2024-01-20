@@ -1,0 +1,25 @@
+table{
+    border: 1px solid black;
+    margin: 100px auto;
+    border-collapse: collapse;
+    overflow-x: auto;
+}
+
+table th{
+    border: 1px solid black;
+    text-align: start;
+    background-color: black;
+    color: white;
+}
+
+table td{
+    border: 1px solid black;
+    width: 7%;
+}
+
+@media screen and (max-width:500px) {
+
+    table th{
+        text-align: left;
+    }
+}
