@@ -1,0 +1,171 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather:ital@0;1&family=Roboto:wght@700&family=Work+Sans:wght@600&display=swap');
+
+body{
+    display: flex;
+    padding: 4% 6%;
+    background-image: url(images/picture.jpg);
+    width: 100%;
+    height: 100vh;
+    font-family: 'Merriweather', serif;
+}
+
+.rows{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+    height: 920px;
+}
+
+.rows .section1{
+    background-color: white;
+    height: 450px;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rows .section1 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 4%; 
+}
+
+.rows .section1 span{
+    margin-bottom: 10px;
+    padding-right: 10px;
+    font-size: 100px;
+    height: 100px;
+    width: 68%;
+}
+
+.rows .section1 p{
+    width: 68%;
+    padding-right: 10px;
+    color: gray;
+    font-size: 25px;
+}
+
+.rows .section1 p:last-of-type{
+    color: black;
+    margin-top: 3%;
+    font-weight: bold;
+    font-size: 33px;
+}
+
+
+
+
+
+.rows .section2{
+    background-color: white;
+    height: 450px;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rows .section2 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 4%; 
+}
+
+.rows .section2 span{
+    margin-bottom: 10px;
+    padding-right: 10px;
+    font-size: 100px;
+    height: 100px;
+    width: 68%;
+}
+
+.rows .section2 p{
+
+    width: 68%;
+    padding-right: 10px;
+    color: gray;
+    font-size: 25px;
+}
+
+.rows .section2 p:last-of-type{
+    color: black;
+    margin-top: 3%;
+    font-weight: bold;
+    font-size: 33px;
+}
+
+/* column  */
+
+.col{
+    width: 35vw;
+    margin-left: 40px;
+    height: 780px;
+    background-color: white;
+    padding: 3%;
+    height: 920px;
+}
+
+.col .section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.col .section2 span{
+    margin-bottom: 70px;
+    font-size: 100px;
+    height: 100px;
+    width: 68%;
+}
+
+.col .section2 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 2%; 
+}
+
+.col .section2 p{
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 160px;
+    height: 40%;
+}
+
+.col .section2 .hero{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 150px;
+    width: 270px;
+}
+
+.col .section2 .border{
+    border-bottom: 1px solid gray;
+}
+
+.col .section2 .hero .name{
+    margin: 0 20px;
+    padding: 25px 0px 0px 0px;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+}
+
+.col .section2 .hero .work{
+    margin: 0 20px;
+    font-size: 18px;
+}
