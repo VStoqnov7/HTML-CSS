@@ -1,0 +1,80 @@
+@media screen and (max-width: 600px) {
+    .home-container {
+        align-items: unset;
+    }
+
+    .home-navbar-container {
+        width: 36.5rem;
+    }
+
+    .home-links-container {
+        margin-left: 1rem;
+    }
+
+    .home-hero {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .home-hero {
+        width: 36.5rem;
+        margin: 2rem auto;
+    }
+
+    .home-hero-text-container {
+        width: 90%;
+        margin-left: 0px;
+    }
+
+    .home-cta-btn2{
+        width: 10rem;
+        margin: 0 auto;
+    }
+
+    .home-features{
+        width: 36.5rem;
+        padding: 0px;
+        height: 83rem; 
+    }
+
+    .home-heading-container {
+        width: 36.5rem;
+    }
+
+    .home-cards-container {
+        width: 36.5rem;
+    }
+
+    .home-feature-card, 
+    .home-feature-card1, 
+    .home-feature-card2 {
+        width: 36.5rem;
+        padding: 0 auto;
+    }
+
+    .home-stats {
+        width: 36.5rem;
+        grid-gap: 0px;
+        grid-template-rows: repeat(4,1fr);
+        grid-template-areas:
+        "stat1 stat1 stat1 stat1"
+        "stat2 stat2 stat2 stat2"
+        "stat3 stat3 stat3 stat3"
+        "stat4 stat4 stat4 stat4";
+    }
+
+    .home-stat{
+        grid-area: stat1;
+    }
+    .home-stat1{
+        grid-area: stat2;
+    }
+
+    .home-stat2{
+        grid-area: stat3;
+    }
+
+    .home-stat3{
+        grid-area: stat4;
+    }
+}
