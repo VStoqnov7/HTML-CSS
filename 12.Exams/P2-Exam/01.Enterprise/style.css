@@ -1,0 +1,76 @@
+body{
+    font-size: 16px;
+}
+
+.container{
+    padding: 3rem 5rem 3rem 3rem;
+    height: 40.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    background-color: #d9d9d9;
+    justify-content: center;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+
+.container .section1{
+    display: flex;
+    width: 23rem;
+    flex-direction: column;
+    border: 1px solid gray;
+    box-shadow: 10px 5px 8px #cacaca;
+}
+
+
+.container .section1 .pic1{
+    width: 23rem;
+    height: 23rem;
+    display: bl;
+}
+
+.container .section1 .text-pic{
+    margin: 1rem 2rem;
+}
+
+.container .section1 .text-pic .text1{
+    font-weight: bold;
+    color: #5e6071;
+    margin-bottom: 0.1rem;
+}
+
+.container .section1 .text-pic .text2{
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.container .section1 .text-pic .text3{
+    color: #5e6071;
+    margin-bottom: 1.3rem;
+}
+
+.container .section1 .text-pic .footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container .section1 .text-pic .footer .pic2{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: fill;
+}
+
+
+.container .section1 .text-pic .footer .text4{
+    color: #5e6071;
+    margin-left: 0.4rem;
+}
+
+.container .section1 .text-pic .footer .text5{
+    margin-left: auto; 
+    margin-right: 0;
+    color: #a8b1bc;
+}
