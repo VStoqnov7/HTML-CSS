@@ -1,0 +1,195 @@
+.head {
+    font-size: 16px;
+    max-width: 1920px;
+    font-family: 'PT Serif', 'PT Sans';
+}
+
+.head .pic img {
+    position: absolute;
+    width: 100%;
+    height: 40rem;
+    object-fit: cover;
+    object-position: 50% 15%;
+    top: 0px;
+    z-index: -1;
+}
+
+
+.head .container1 {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 3rem;
+    z-index: 1;
+
+}
+
+.head .container1 .section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.head .container1 .section1 img {
+    font-size: 4rem;
+    width: 3.5rem;
+    height: 3rem;
+}
+
+.head .container1 .section1 .nav {
+    display: flex;
+}
+
+.head .container1 .section1 .nav p {
+    margin-right: 1rem;
+}
+
+.head .container1 .section1 .nav p a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.head .container1 .section2 {
+    padding: 3rem 5rem 5rem 10rem;
+}
+
+.head .container1 .section2 .text1 {
+    font-size: 3rem;
+    color: white;
+}
+
+.head .container1 .section2 .text2 {
+    margin-top: 0.6rem;
+    color: white;
+    width: 35rem;
+}
+
+/* container2 */
+
+.head .container2 {
+    display: flex;
+    flex-direction: row;
+    margin: 12rem 16rem 5rem 12rem;
+}
+
+.head .container2 .section1 {
+    padding-right: 2.5rem;
+}
+
+
+.head .container2 .section1 .text1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.head .container2 .section1 .btn {
+    margin-top: 3rem;
+}
+
+.head .container2 .section1 .btn a {
+    border: 1px solid #b88e6c;
+    padding: 0.5rem 1rem;
+    color: #c3936c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* container3 */
+
+.head .container3 {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 15rem 2rem 15rem;
+}
+
+.head .container3 .text1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #b0825c;
+    margin-bottom: 1.3rem;
+}
+
+.head .container3 .text2 {
+    text-align: center;
+    color: #a18579;
+    margin-bottom: 1rem;
+}
+
+.head .container3 .text3 {
+    text-align: center;
+    color: #a18579;
+    margin-bottom: 1.5rem;
+}
+
+.head .container3 .section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.head .container3 .section1 img {
+    width: 8rem;
+    height: 8rem;
+    background-color: #dddddd;
+    border-radius: 50%;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+/* container4 */
+
+.head .container4 {
+    display: flex;
+    flex-direction: row;
+    background-color: #171720;
+    gap: 3rem;
+}
+
+.head .container4 .section {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.head .container4 .section .text1 {
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.head .container4 .section .text2 {
+    margin-bottom: 0.6rem;
+    text-transform: uppercase;
+}
+
+.head .container4 .section .text2 a {
+    color: #988c81;
+    text-decoration: none;
+}
+
+.head .container4 .section1 {
+    margin-left: 13rem;
+    margin-right: 2rem;
+}
+
+.head .container4 .section2 {
+    margin-right: 1rem;
+}
+
+.head .container4 .section3 {
+    margin-right: 5rem;
+}
+
+/* container5 */
+
+.head .container5 {
+    padding: 1.5rem 0rem;
+    background-color: #171720;
+    color: #a18579;
+    border-top: 2px solid #32323a;
+}
+
+.head .container5 .text1 {
+    padding-left: 13rem;
+}
