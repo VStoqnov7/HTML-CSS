@@ -1,0 +1,247 @@
+.head {
+    font-size: 16px;
+    max-width: 1920px;
+    background-image: url(Media/background.jpg);
+    background-position: center;
+}
+
+/* row 1 */
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 3.3rem;
+    align-items: center;
+    background-color: #e6e3de;
+}
+
+.container1 .container1-section1 p {
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #8492ab;
+}
+
+.container1 .container1-section2 ul {
+    display: flex;
+    color: #8492ab;
+}
+
+.container1 .container1-section2 ul a {
+    text-decoration: none;
+    margin-right: 3rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.container1 .container1-section3 {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.container1 .container1-section3 .btn {
+    margin-right: 0.5rem;
+    background-color: #554938;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+
+}
+
+.container1 .container1-section3 .btn a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+/* row 2 */
+
+.container2 {
+    width: 100%;
+    height: 40rem;
+    background-image: url(Media/craving.jpg);
+    background-position: right;
+    position: relative;
+}
+
+.container2 .search {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.container2 .search input {
+    padding-left: 2.8rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+}
+
+.container2 .search i {
+    position: absolute;
+    top: 71%;
+    left: 16.5%;
+    color: grey;
+}
+
+/* row 3 & row 4*/
+
+.container3 {
+    padding: 4rem 10rem 1rem 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.container3 .container3-section1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.container3 .container3-section1 .pic {
+    width: 80%;
+}
+
+.container3 .container3-section1 .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: #e6e3de;
+}
+
+.container3 .container3-section1 .text .text1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.container3 .container3-section1 .text .text2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container3 .container3-section1 .text .btn {
+    margin: 2rem auto 0rem auto;
+    background-color: #554938;
+    color: white;
+}
+
+.container3 .container3-section1 .text .btn a {
+    text-decoration: none;
+    color: white;
+    padding: 2rem 2rem;
+}
+
+/* row 5 */
+
+.container3 .container3-section3 {
+    display: flex;
+    justify-content: center;
+    height: 3.6rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.container3 .container3-section3 p {
+    padding: 0.6rem 2rem;
+    align-items: center;
+    background-color: #dbdcda;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.container3 .container3-section3 p a {
+    text-decoration: none;
+    color: black;
+}
+
+/* row 6 */
+
+.container3 .container3-section4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+}
+
+.container3 .container3-section4 .pic-text {
+    width: 20rem;
+}
+
+.container3 .container3-section4 .pic-text .text {
+    background-color: #d5d6d4;
+    height: 4rem;
+    width: auto;
+    font-style: italic;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.container3 .container3-section4 .pic-text .text p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.4rem;
+
+}
+
+/* row 5 */
+
+.container3 .container3-section5 {
+    text-align: center;
+}
+
+.container3 .container3-section5 a {
+    display: inline-block;
+    padding: 10px 90px;
+    background-color: #dc4e36;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* row 6 */
+
+.container4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 5rem;
+}
+
+.container4 .position1{
+    display: flex;
+    align-items: center;
+}
+
+.container4 hr{
+    display: inline-block;
+    border: none;
+    border-left: 1px solid gray; 
+    height: 2rem; 
+    margin: 0;
+    padding: 0
+}
+
+.container4 span{
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.container4 span a{
+    text-decoration: none;
+    color: black;
+}
