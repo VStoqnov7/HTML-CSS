@@ -1,6 +1,5 @@
 @media screen and (max-width:600px) {
 
-
     .home-container{
         padding-top: 0px;
     }
@@ -8,7 +7,6 @@
     .home-navbar{
         position: unset;
     }
-
 
     .navbar-link{
         display: none;
@@ -48,7 +46,6 @@
     .blog-post-card-image{
         width: 34.5rem;
     }
-
 
     .home-footer1 {
         flex-direction: column-reverse;
